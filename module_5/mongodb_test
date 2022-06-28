@@ -1,0 +1,8 @@
+from pymongo import MongoClient
+
+url = "mongodb+srv://admin:admin@cluster0.vj6wlif.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(url)
+db = client.pytech
+
+print("-- Pytech Collection List --")
+print(db.list_collection_names()) #in the instructions there was not the parenthesis needed after 'names', which caused the program to print the details of the collection and not the names.
