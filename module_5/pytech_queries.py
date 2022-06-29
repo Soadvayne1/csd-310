@@ -5,7 +5,6 @@ Assignment 5.3
 6/28/2022
 '''
 
-from pprint import pprint
 from pymongo import MongoClient
 
 url = "mongodb+srv://admin:admin@cluster0.vj6wlif.mongodb.net/?retryWrites=true&w=majority"
